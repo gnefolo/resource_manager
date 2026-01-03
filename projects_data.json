@@ -1,0 +1,289 @@
+{
+  "C20240055": {
+    "project_id": "C20240055",
+    "name": "C20240055",
+    "client": "Aggiornamento Delta come da Integrazioni contrattuali del 20.06.2024",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Federico Meschini",
+        "daily_cost": 151.2,
+        "days_per_month": 2,
+        "monthly_cost": 302.4,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Ivan Ciolli",
+        "daily_cost": 142.16,
+        "days_per_month": 4,
+        "monthly_cost": 568.64,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 8,
+        "monthly_cost": 1850.88,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Riccardo Scialla",
+        "daily_cost": 275.68,
+        "days_per_month": 6,
+        "monthly_cost": 1654.08,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Sara Fiorini",
+        "daily_cost": 188.64,
+        "days_per_month": 12,
+        "monthly_cost": 2263.68,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Davide Antonelli",
+        "daily_cost": 125.52,
+        "days_per_month": 12,
+        "monthly_cost": 1506.24,
+        "hours_per_month": 0
+      }
+    ]
+  },
+  "C20250122": {
+    "project_id": "C20250122",
+    "name": "C20250122",
+    "client": "Nitto ATP Finals 2025",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 8,
+        "monthly_cost": 1850.88,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Silvia Franchi",
+        "daily_cost": 208.56,
+        "days_per_month": 4,
+        "monthly_cost": 834.24,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Emanuela Chessa",
+        "daily_cost": 154.0,
+        "days_per_month": 4,
+        "monthly_cost": 616.0,
+        "hours_per_month": 0
+      }
+    ]
+  },
+  "C20250125": {
+    "project_id": "C20250125",
+    "name": "C20250125",
+    "client": "Analisi SROI del  movimento tennis in Italia",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 4,
+        "monthly_cost": 925.44,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Silvia Franchi",
+        "daily_cost": 208.56,
+        "days_per_month": 2,
+        "monthly_cost": 417.12,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Emanuela Chessa",
+        "daily_cost": 154.0,
+        "days_per_month": 2,
+        "monthly_cost": 308.0,
+        "hours_per_month": 0
+      }
+    ]
+  },
+  "C20250124": {
+    "project_id": "C20250124",
+    "name": "C20250124",
+    "client": "Coppa Davis",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 8,
+        "monthly_cost": 1850.88,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Silvia Franchi",
+        "daily_cost": 208.56,
+        "days_per_month": 4,
+        "monthly_cost": 834.24,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Emanuela Chessa",
+        "daily_cost": 154.0,
+        "days_per_month": 4,
+        "monthly_cost": 616.0,
+        "hours_per_month": 0
+      }
+    ]
+  },
+  "C20250134": {
+    "project_id": "C20250134",
+    "name": "C20250134",
+    "client": "FIFA arena",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 3,
+        "monthly_cost": 694.08,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Silvia Franchi",
+        "daily_cost": 208.56,
+        "days_per_month": 6,
+        "monthly_cost": 1251.3600000000001,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Emanuela Chessa",
+        "daily_cost": 154.0,
+        "days_per_month": 6,
+        "monthly_cost": 924.0,
+        "hours_per_month": 0
+      }
+    ]
+  },
+  "C20250135": {
+    "project_id": "C20250135",
+    "name": "C20250135",
+    "client": "Analisi economica di valutazione dei KPI",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 4,
+        "monthly_cost": 925.44,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Silvia Franchi",
+        "daily_cost": 208.56,
+        "days_per_month": 10,
+        "monthly_cost": 2085.6,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Emanuela Chessa",
+        "daily_cost": 154.0,
+        "days_per_month": 10,
+        "monthly_cost": 1540.0,
+        "hours_per_month": 0
+      }
+    ]
+  },
+  "C20250136": {
+    "project_id": "C20250136",
+    "name": "C20250136",
+    "client": "Analisi d'impatto e della dimensione sociale",
+    "progress": 0,
+    "project_value": 0,
+    "margin": 0,
+    "budget_residual": 0,
+    "months_remaining": 0,
+    "max_monthly_spend": 0,
+    "resources": [
+      {
+        "name": "Giorgio Cesare Carluccio",
+        "daily_cost": 350.48,
+        "days_per_month": 2,
+        "monthly_cost": 700.96,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Federico Meschini",
+        "daily_cost": 151.2,
+        "days_per_month": 4,
+        "monthly_cost": 604.8,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Ivan Ciolli",
+        "daily_cost": 142.16,
+        "days_per_month": 5,
+        "monthly_cost": 710.8,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Giovanni Graziano",
+        "daily_cost": 231.36,
+        "days_per_month": 2,
+        "monthly_cost": 462.72,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Silvia Franchi",
+        "daily_cost": 208.56,
+        "days_per_month": 5,
+        "monthly_cost": 1042.8,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Emanuela Chessa",
+        "daily_cost": 154.0,
+        "days_per_month": 5,
+        "monthly_cost": 770.0,
+        "hours_per_month": 0
+      },
+      {
+        "name": "Filippo Chiacchierini",
+        "daily_cost": 142.16,
+        "days_per_month": 5,
+        "monthly_cost": 710.8,
+        "hours_per_month": 0
+      }
+    ]
+  }
+}
