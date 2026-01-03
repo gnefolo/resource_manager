@@ -28,7 +28,7 @@ import { DashboardLayoutSkeleton } from './DashboardLayoutSkeleton';
 import { Button } from "./ui/button";
 
 const menuItems = [
-  { icon: LayoutDashboard, label: "Dashboard", path: "/" },
+  { icon: LayoutDashboard, label: "Dashboard", path: "/dashboard" },
   { icon: FolderKanban, label: "Commesse", path: "/projects" },
   { icon: Users, label: "Risorse", path: "/resources" },
   { icon: ArrowRightLeft, label: "Riallocazione", path: "/resource-allocation" },
@@ -66,7 +66,7 @@ export default function DashboardLayout({
   if (!user) {
     // Redirect to /auth if not logged in
     useEffect(() => {
-      setLocation("/auth");
+      setLocation("/");
     }, [setLocation]);
     return null;
   }

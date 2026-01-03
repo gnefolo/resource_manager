@@ -8,17 +8,24 @@ import { trpc } from "@/lib/trpc";
 import { useState } from "react";
 import { useLocation } from "wouter";
 import { toast } from "sonner";
+import { useAuth } from "@/_core/hooks/useAuth";
 
 export default function Auth() {
     const [location, setLocation] = useLocation();
     const loginMutation = trpc.auth.login.useMutation();
     const registerMutation = trpc.auth.register.useMutation();
+    const { user, loading } = useAuth();
 
     const [formData, setFormData] = useState({
         name: "",
         email: "",
         password: "",
     });
+
+    if (!loading && user) {
+        window.location.href = "/dashboard";
+        return null;
+    }
 
     const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -28,7 +35,7 @@ export default function Auth() {
                 password: formData.password,
             });
             toast.success("Login effettuato");
-            window.location.href = "/";
+            window.location.href = "/dashboard";
         } catch (error: any) {
             toast.error("Errore di login", { description: error.message });
         }
@@ -39,7 +46,7 @@ export default function Auth() {
         try {
             await registerMutation.mutateAsync(formData);
             toast.success("Registrazione completata", { description: "Benvenuto!" });
-            window.location.href = "/";
+            window.location.href = "/dashboard";
         } catch (error: any) {
             toast.error("Errore di registrazione", { description: error.message });
         }

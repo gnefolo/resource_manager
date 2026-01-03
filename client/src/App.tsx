@@ -20,8 +20,8 @@ import UserManual from "./pages/UserManual";
 function Router() {
   return (
     <Switch>
-      <Route path="/auth" component={Auth} />
-      <Route path="/">
+      <Route path="/" component={Auth} />
+      <Route path="/dashboard">
         <DashboardLayout>
           <Dashboard />
         </DashboardLayout>
