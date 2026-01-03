@@ -25,8 +25,12 @@ export function useAuth(options: UseAuthOptions = {}) {
     }
   }, [isLoading, isAuthenticated, options.redirectOnUnauthenticated]);
 
+  const trpcUtils = trpc.useUtils();
+
   const logoutMutation = trpc.auth.logout.useMutation({
-    onSuccess: () => {
+    onSuccess: async () => {
+      await trpcUtils.auth.me.invalidate();
+      await trpcUtils.invalidate(); // Invalidate everything to be safe
       window.location.href = "/";
     },
   });

@@ -16,7 +16,15 @@ export const appRouter = router({
 
     logout: publicProcedure.mutation(({ ctx }) => {
       const cookieOptions = getSessionCookieOptions(ctx.req);
+
+      // Attempt to clear with standard options
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
+
+      // Also attempt to clear with "old" conflicting options (SameSite=None) to ensure cleanup
+      // This handles cases where a cookie was set with previous configuration
+      ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, sameSite: "none", secure: true, maxAge: -1 });
+      ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, sameSite: "lax", secure: false, maxAge: -1 });
+
       return { success: true } as const;
     }),
 
