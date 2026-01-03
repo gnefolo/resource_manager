@@ -1,26 +1,12 @@
 {
   "version": "7",
-  "dialect": "mysql",
+  "dialect": "sqlite",
   "entries": [
     {
       "idx": 0,
-      "version": "5",
-      "when": 1765902007216,
-      "tag": "0000_daily_vin_gonzales",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "5",
-      "when": 1765902149598,
-      "tag": "0001_curved_vision",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "5",
-      "when": 1765923829576,
-      "tag": "0002_equal_the_watchers",
+      "version": "6",
+      "when": 1767441136137,
+      "tag": "0000_fearless_zombie",
       "breakpoints": true
     }
   ]
